@@ -86,3 +86,44 @@ a {
 .menu-nav a:hover {
   color: #122ab2;
 }
+
+.introducao {
+  font-size: 3rem;
+  line-height: 1em;
+  max-width: 960px;
+  margin: 0px auto;
+  padding: 60px 10px;
+}
+
+.sobre {
+  max-width: 960px;
+  margin: 0 auto;
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  margin: 0 10px;
+  flex: 2 1 300px;
+}
+
+.sobre-info h1 {
+  font-size: 3rem;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+}
+
+.sobre-info p {
+  font-size: 1.25rem;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
